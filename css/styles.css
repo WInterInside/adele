@@ -13,12 +13,14 @@ html {
     box-sizing: content-box;
 }
 body {
-    min-width: 1920px;
+    min-width: 1500px;
     margin: 0;
     line-height: 21px;
     font-size: 14px;
     color: #000000;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    padding: 50px 200px 0 200px;
 }
 a {
     text-decoration: none;
@@ -38,4 +40,81 @@ img {
     width: 1px;
     overflow: hidden;
 }
-  /*  background-image: url("../img/index/file-name"); */
+
+.product-logo {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 50px;
+  align-items: center;
+}
+.logo-txt {
+  position: relative;
+  font-size: 30px;
+}
+.logo-txt::after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+  width: 1500px;
+  height: 1px;
+  background-color: lightgray;
+}
+header {
+  display: flex;
+}
+nav {
+   position: relative;
+
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+
+    cursor: pointer;
+}
+.menu-line,
+.menu-line::before,
+.menu-line::after  {
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background-color: lightgray;
+}
+.menu-line {
+top: 10px;
+right: 0;
+}
+.menu-line::before{
+content: "";
+top: 13px;
+}
+.menu-line::after{
+content: "";
+top: 25px;
+}
+
+.order {
+  min-height: 600px;
+   background-image: url("../img/index/img-for-first-section(pils-with-dotted-bg).png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.do-it-now h2 {
+  position: relative;
+}
+.do-it-now h2::before {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  content: "";
+  width: 3px;
+  height: 30px;
+  background-color: lightblue;
+
+}
+.button {
+  background-color: lightblue;
+  border-radius: 20% 20%;
+}
