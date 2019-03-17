@@ -282,6 +282,7 @@ background-color: #fafcfc;
           line-height: 24px;
               margin-left: 605px;
 }
+/*
 .fetures-list {
   list-style: none;
   margin: 0 248px 0 248px;
@@ -331,6 +332,7 @@ background-color: #fafcfc;
 .list-item:nth-of-type(even) p {
 text-align: left;
 }
+*/
 .real-results {
   background-color: #ffffff;
   min-height: 850px;
@@ -356,4 +358,15 @@ text-align: left;
 .client p {
   color: white;
   text-align: center;
+}
+.results-slider {
+  position: relative;
+}
+
+.slider-item {
+  display: none;
+}
+
+.slider-item:nth-child(2) {
+  display: block;
 }
