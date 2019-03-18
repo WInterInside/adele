@@ -282,30 +282,28 @@ background-color: #fafcfc;
           line-height: 24px;
               margin-left: 605px;
 }
-/*
+
 .fetures-list {
   list-style: none;
   margin: 0 248px 0 248px;
   padding: 0;
-}
-.fetures-items {
   display: flex;
-  }
-.list-item:first-child{
-  margin-right: auto;
+  flex-wrap: wrap;
 }
-.list-item:first-child::after,
-.list-item:nth-child(2)::before {
+.list-item:nth-of-type(even)::after,
+.list-item:nth-of-type(odd)::before {
   position: absolute;
   top: 4px;
-  right: 0;
   content: "";
   width: 5px;
   height:35px;
   background-color: #18a3dd;
   border-radius: 2px 2px;
 }
-.list-item:nth-child(2)::before {
+.list-item:nth-of-type(odd)::before {
+  right: 0;
+}
+.list-item:nth-of-type(even)::after{
   left: 0;
 }
 .list-item {
@@ -316,6 +314,10 @@ background-color: #fafcfc;
   min-height: 90px;
   margin-bottom: 80px;
 }
+.list-item:nth-of-type(odd) {
+  margin-right: 460px;
+}
+
 .list-item h3{
   font-size: 20px;
   line-height: 24px;
@@ -332,7 +334,7 @@ background-color: #fafcfc;
 .list-item:nth-of-type(even) p {
 text-align: left;
 }
-*/
+
 .real-results {
   background-color: #ffffff;
   min-height: 850px;
