@@ -191,11 +191,11 @@ color: white;
   position: absolute;
   top: -150px;;
   left: 0;
-  transition: 1s;
+  transition: 0.7s;
 }
 .per-section img:hover {
   transform: scale(1.3);
-    transition: 1s;
+  transition: 0.7s;
 }
 
 .per-list {
@@ -581,6 +581,7 @@ margin-right: 20px;
 .client-slider-item {
   display: none;
   padding: 78px 0 80px 0;
+
 }
 
 .client-item-container {
@@ -614,19 +615,22 @@ transition: 1s;
 
 .client-image:hover {
   transform: scale(2,2);
-      transition: 1s;
+    transition: 0.7s;
 }
 
 #client-1:checked ~ .client-slider-list .client-slider-item:nth-child(1) {
   display: block;
+
 }
 
 #client-2:checked ~ .client-slider-list .client-slider-item:nth-child(2) {
   display: block;
+
 }
 
 #client-3:checked ~ .client-slider-list .client-slider-item:nth-child(3) {
   display: block;
+
 }
 
 #client-1:checked ~ .client-slider-controls .client-slider-controls-item-1::before,
@@ -639,9 +643,7 @@ transition: 1s;
   z-index: 2;
   width: 18px;
   height: 18px;
-
   background-color: blue;
-
   border-radius: 50%;
 }
 
@@ -659,11 +661,47 @@ background-color: #fafcfc;
   margin-right: 50px;
 }
 .table-and-link  tr:not(:first-child) {
-  transition: 1s;
+  transition: 0.7s;
 }
 .table-and-link  tr:not(:first-child):hover {
 background-color: #ffffff;
    box-shadow: 0 0 10px rgba(0,0,0,0.5);
   transform: scale(1.2);
-      transition: 1s;
+  transition: 0.7s;
+}
+
+.certifications {
+  background-color: lightgray;
+    min-height: 200px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.cert-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding-left: 400px;
+}
+
+.cert-item {
+  margin-right: 30px;
+  position: relative;
+  transition: 0.7s;
+}
+
+
+.cert-item:hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+
+.cert-item:not(:first-child)::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 1px;
+  height: 30px;
+  background-color: black;
 }
