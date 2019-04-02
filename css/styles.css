@@ -771,13 +771,33 @@ padding-left: 20px;
   padding-bottom: 100px;
 }
 
+.inquire-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 700px;
+  min-height: 300px;
+  margin: 0 auto;
+}
+
 .inquire-form button[type=submit] {
   border-radius:30px 30px;
+   margin-left: 200px;
+   width: 200px;
 }
 .inquire-form input[type=text] {
+  display: inline-block;
+  width: 300px;
   border: 2px solid white;
   border-bottom: 1px solid black;
+  margin-bottom: 20px;
 }
+
+.inquire-form input[name=Subject] {
+  width: 602px;
+  margin-bottom: 50px;
+}
+
 
 footer {
   min-height: 200px;
@@ -790,4 +810,12 @@ footer {
   margin: 0;
   list-style: none;
   display: flex;
+}
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 0 200px;
+}
+.footer-details .cert-list {
+  padding: 0;
 }
