@@ -831,6 +831,37 @@ footer {
   list-style: none;
   display: flex;
 }
+
+.soc-item a{
+display: block;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  margin-right: 10px;
+  margin-top: 10px;
+
+}
+
+.fb a{
+    background-image: url("../img/index/sprite.png");
+    background-repeat: no-repeat;
+    background-position: 19px center;
+}
+.tw a{
+    background-image: url("../img/index/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -49px center;
+}
+.yt a {
+    background-image: url("../img/index/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -126px center;
+}
+.at a{
+    background-image: url("../img/index/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -203px center;
+}
 .footer-details {
   display: flex;
   flex-direction: column;
