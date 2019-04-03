@@ -772,6 +772,7 @@ padding-left: 20px;
 }
 
 .inquire-form {
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -793,9 +794,28 @@ padding-left: 20px;
   margin-bottom: 20px;
 }
 
-.inquire-form input[name=Subject] {
+.inquire-form textarea{
+  position: relative;
+ height: 70px;
+ line-height: 33px;
+ resize: none;
+  word-wrap: break-word;
   width: 602px;
   margin-bottom: 50px;
+  border: 0px;
+  border-bottom: 1px solid black;
+}
+.textarea-container {
+  position: relative;
+}
+.textarea-container::after {
+  content: "";
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 602px;
+  height: 1px;
+  background-color: black;
 }
 
 
