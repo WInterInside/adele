@@ -45,7 +45,6 @@ img {
 }
 header {
   display: flex;
-  width: 100%;
   min-height: 90px;
   background-color: #fafcfc;
   padding-left: 180px;
@@ -111,16 +110,25 @@ top: 25px;
 }
 
 .order {
+  min-width: 1500px;
   min-height: 1005px;
   background-color: #fafcfc;
   background-image: url("../img/index/img-for-first-section(pils-with-dotted-bg).png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 100% 50% ;
   padding-left:  180px;
   padding-top: 294px;
 
 }
-
+/*
+.order .container {
+  min-height: 1005px;
+  padding-top: 300px;
+  background-image: url("../img/index/img-for-first-section(pils-with-dotted-bg).png");
+  background-repeat: no-repeat;
+  background-position: 100% 50% ;
+}
+*/
 .latin {
   font-size: 16px;
   line-height: 24px;
