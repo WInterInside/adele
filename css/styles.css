@@ -583,16 +583,52 @@
      border-radius: 50%;
 }
  .facts {
-     min-height: 695px;
+     min-height: 895px;
      padding-top: 120px;
-     padding-left: 100px;
+     padding-left: 280px;
+     padding-right: 260px;
      background-color: #fafcfc;
+}
+
+.facts .section-heading {
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: 299px;
+}
+.facts .p-for-heading {
+  margin: 0;
+    margin-left: 320px;
 }
  .facts-discription {
      display: flex;
 }
+.ingridient-discription .client-image {
+  width: 110px;
+  height: 120px;
+  margin: 0;
+  margin-top: 70px;
+  margin-bottom: 45px;
+}
+
+.facts .result-person {
+    padding-left: 30px;
+}
+.facts .result-person h2 {
+  text-transform: uppercase;
+  margin: 0;
+}
+.facts .result-person p {
+  margin: 0;
+  margin-bottom: 30px;
+}
+.facts .result-person::before{
+  height: 40px;
+    top: 0;
+    left: 0;
+}
+
  .table-and-link {
-     margin-right: 50px;
+     margin-right: 390px;
 }
  .table-and-link tr:not(:first-child) {
      transition: 0.7s;
@@ -603,6 +639,10 @@
      transform: scale(1.2);
      transition: 0.7s;
 }
+
+
+
+
  .certifications {
     /* background-color: #f1f4f5;
      */
