@@ -345,23 +345,25 @@
      background-color: #ffffff;
      min-height: 850px;
      padding-top: 120px;
+    padding-left: 173px;
 }
  .real-results .section-heading {
-     margin-left: 559px;
+     margin-left: 370px;
 }
  .real-results .p-for-heading {
-     margin-left: 630px;
+   margin-bottom: 0;
+     margin-left: 437px;
 }
  .results-slider {
      position: relative;
 }
  .results-slider-container {
      width: 800px;
-     margin-left: 200px;
+     margin-left: 300px;
 }
  .slider-controls {
      position: absolute;
-     left: 50%;
+     left: 588px;
      bottom: 30px;
      z-index: 100;
      width: 160px;
@@ -373,9 +375,9 @@
  .slider-controls label {
      position: relative;
      display: inline-block;
-     width: 18px;
-     height: 18px;
-     padding: 8px;
+     width: 13px;
+     height: 13px;
+
      margin-right: 20px;
      border-radius: 50%;
      cursor: pointer;
@@ -387,8 +389,8 @@
      top:0;
      left:0;
      z-index: 1;
-     width: 18px;
-     height: 18px;
+     width: 13px;
+     height: 13px;
      background-color: gray;
      border-radius: 50%;
 }
@@ -398,27 +400,42 @@
      list-style: none;
 }
  .slider-item {
-     display: none;
+      display: none;
      padding: 78px 0 80px 0;
 }
  .item-container {
      display: flex;
-     width: 600px;
      min-height: 300px;
+     margin-bottom: 25px;
+}
+.item-container h2 {
+  margin: 0;
+  margin-bottom: 5px;
+  text-transform: uppercase;
 }
  .item-container h3, .item-container p {
      display: inline-block;
+     margin: 0;
 }
  .item-container h3 {
-     margin-right: 20px;
+     margin-right: 45px;
+     margin-bottom: 40px;
      color: #18a3dd;
+}
+
+.item-container p {
+text-transform: uppercase;
+margin-bottom: 22px;
+margin-right: 10px;
 }
  .result-person {
      position: relative;
+     margin-left: 25px;
 }
  .result-person::before{
-     top: 0;
-     left:-10px;
+   height: 40px;
+     top: 5px;
+     left:-28px;
 }
  .mass-value {
      font-size: 30px;
@@ -430,19 +447,25 @@
  .result-images {
      display: flex;
      position: relative;
-     width: 300px;
-     margin-left: 100px;
+     width:470px;
+     padding-left: 97px;
+     margin-right: 20px;
+ }
+.color-ph {
+  width: 360px;
+  height: 400px;
 }
  .bw-ph {
      position: absolute;
-     top: 75px;
-     left: -100px;
-     width: 150px;
-     height: 200px;
+     top: 50px;
+     left: -99px;
+     width: 263px;
+     height: 300px;
 }
  .results-data {
      display: flex;
      flex-direction: column;
+     padding-top:122px;
 }
  .item-value {
      margin-right: 20px;
@@ -464,9 +487,9 @@
      left: 0;
      top: 0;
      z-index: 2;
-     width: 18px;
-     height: 18px;
-     background-color: blue;
+     width: 13px;
+     height: 13px;
+     background-color:  #18a3dd;
      border-radius: 50%;
 }
  .client {
