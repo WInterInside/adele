@@ -640,6 +640,10 @@ margin-right: 10px;
  .facts-discription {
      display: flex;
 }
+
+.ingridient-discription {
+
+}
 .ingridient-discription .client-image {
   width: 110px;
   height: 120px;
@@ -666,21 +670,70 @@ margin-right: 10px;
 }
 
  .table-and-link {
-     margin-right: 390px;
+     margin-right: 105px;
 }
+ .table-and-link  .button {
+   width: 455px;
+   text-align: center;
+ }
  .table-and-link tr:not(:first-child) {
      transition: 0.7s;
 }
  .table-and-link tr:not(:first-child):hover {
      background-color: #ffffff;
      box-shadow: 0 0 10px rgba(0,0,0,0.5);
-     transform: scale(1.2);
+     transform: scale(1.3);
      transition: 0.7s;
 }
 
 
+.ingridients-table {
+  width: 455px;
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
+}
+.ingridients-table th {
+  text-transform: uppercase;
+  border-bottom: 5px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ingridients-table span {
+  font-weight: normal;
+}
+.ingridients-table td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid lightgray;
+  transition: 0.7s;
+}
 
+.ingridients-table tr {
+
+}
+.ingridients-table tr:hover td {
+       transition: 0.7s;
+  padding: 20px;
+}
+
+.ingridients-table td:first-child,
+.ingridients-table th:first-child {
+  text-align: left;
+}
+.ingridients-table td:last-child,
+.ingridients-table th:last-child {
+  text-align: right;
+}
+
+.ingridient-discription .result-person{
+  padding: 0;
+}
+.ingridient-discription .result-person::before{
+  top: 0;
+  left: -22px;
+}
  .certifications {
     /* background-color: #f1f4f5;
      */
