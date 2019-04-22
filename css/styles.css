@@ -20,10 +20,12 @@
      color: #000000;
      background-color: #ffffff;
      font-family: 'Lato', sans-serif;
+
 }
  .container {
      width: 1500px;
      margin: 0 auto;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
  a {
      text-decoration: none;
@@ -342,11 +344,36 @@
      text-align: left;
 }
  .real-results {
+   position: relative;
      background-color: #ffffff;
      min-height: 850px;
      padding-top: 120px;
     padding-left: 173px;
 }
+
+
+.arrows {
+   width: 18px;
+   height: 18px;
+   position: absolute;
+   top: 260px;
+   cursor: pointer;
+
+}
+.prev {
+   border-bottom: 3px solid  lightgray;
+   border-left: 3px solid  lightgray;
+   transform: rotate(45deg);
+   left: 27px;
+  }
+.next {
+   border-bottom: 3px solid  lightgray;
+   border-left: 3px solid  lightgray;
+   transform: rotate(-135deg);
+   right: 210px;
+ }
+
+
  .real-results .section-heading {
      margin-left: 370px;
 }
@@ -677,9 +704,11 @@ margin-right: 10px;
    text-align: center;
  }
  .table-and-link tr:not(:first-child) {
+
      transition: 0.7s;
 }
  .table-and-link tr:not(:first-child):hover {
+
      background-color: #ffffff;
      box-shadow: 0 0 10px rgba(0,0,0,0.5);
      transform: scale(1.3);
@@ -688,6 +717,7 @@ margin-right: 10px;
 
 
 .ingridients-table {
+
   width: 455px;
   border-collapse: collapse;
   margin-top: 50px;
@@ -704,6 +734,7 @@ margin-right: 10px;
   font-weight: normal;
 }
 .ingridients-table td {
+
   padding-top: 8px;
   padding-bottom: 8px;
   border-bottom: 1px solid lightgray;
@@ -714,7 +745,8 @@ margin-right: 10px;
 
 }
 .ingridients-table tr:hover td {
-       transition: 0.7s;
+
+  transition: 0.7s;
   padding: 20px;
 }
 
